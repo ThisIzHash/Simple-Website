@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="description" content="My first HTML and CSS project">
+  <meta name="keywords" content="Start, go on">
+  <meta name="author" content="Hash">
+  <link rel="stylesheet" href="./css/style.css">
+  <title>Sevices</title>
+</head>
+<body>
+  <header>
+    <div class="container">
+      <div id="branding">
+        <h1> <span class="highlight">Hash</span> Project One</h1>
+      </div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li class="current"><a href="services.html">Services</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="newsletter">
+    <div class="container">
+      <h3>Subscribe to my Newsletter</h3>
+      <form action="process.php">
+        <input type="email" name="email" placeholder="Enter email">
+        <button type="submit" class="button_1" name="submit">Subscribe</button>
+      </form>
+    </div>
+  </section>
+
+  <section id="main">
+    <div class="container">
+      <article id="main-col">
+          <ul class="services">
+            <li><h3>HTML 5</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere lobortis leo, in lobortis neque. Integer vel lacus eu felis congue pellentesque in condimentum massa.</p></li>
+            <li><h3 >CSS 3</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere lobortis leo, in lobortis neque. Integer vel lacus eu felis congue pellentesque in condimentum massa.</p></li>
+            <li><h3>JavaScript</h3>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. In posuere lobortis leo, in lobortis neque. Integer vel lacus eu felis congue pellentesque in condimentum massa.</p></li>
+          </ul>
+      </article>
+      <aside id="sidebar">
+        <div class="dark">
+        <h3>Get a Quote</h3>
+        <form class="quote">
+          <label for="name">Name</label><br>
+          <input type="text" name="name" placeholder="Enter Name"><br>
+          <label for="email">Email</label><br>
+          <input type="email" name="email" placeholder="Enter Your Email"><br>
+          <label for="email">Message</label><br>
+          <textarea name="message" rows="8" cols="20"></textarea><br>
+          <button class="button_1">Get a Quote</button><br>
+        </form>
+      </div>
+      </aside>
+    </div>
+  </section>
+  <footer id="footer">
+    <div class="container">
+      <p>All rights reserved &copy; 2017</p>
+    </div>
+  </footer>
+</body>
+</html>
